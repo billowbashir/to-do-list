@@ -3,8 +3,37 @@
   <head>
     <meta charset="utf-8">
     <title>to do list</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <script
+  src="https://code.jquery.com/jquery-3.3.1.min.js"
+  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+  crossorigin="anonymous"></script>
+    <script src="js/scripts.js">
+    </script>
   </head>
   <body>
    <h1>to do list</h1>
+   <h2>add a task</h2>
+<div class="add">
+   <form id="newtask" action="submit" method="post">
+
+       <label for="title">Title of task</label><br>
+        <input type="text" class="title"><br>
+   <label for="details">Details</label><br>
+   <input type="text" class="details"><br>
+   <button type="submit" class="btn btn-danger">add!</button>
+
+   </form>
+  </div>
+
+   <h2>Tasks</h2>
+ <ul id="tasks">
+
+ </ul>
+<div id="show-tasks">
+  <h2></h2>
+  <p>details: <span class="details"></span></p>
+</div>
   </body>
 </html>

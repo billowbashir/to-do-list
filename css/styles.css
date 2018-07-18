@@ -1,0 +1,10 @@
+#tasks{
+  cursor: pointer;
+  color: #0088cc;
+}
+#tasks:hover{
+text-decoration: underline;
+}
+#show-tasks{
+  display:none;
+}
