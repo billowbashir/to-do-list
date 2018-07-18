@@ -16,10 +16,12 @@ function tasks(title, details){
 
      $("#tasks").append("<li><span class='tasks'>"+newTask.title+"</span></li>");
 
-     $(".tasks").last().click(function(){
+       $(".tasks").last().click(function(){
        $("#show-tasks").show();
        $("#show-tasks h2").text(newTask.title);
        $(".details").text(newTask.details)
      })
+     $("input.title").val(" ");
+     $("input.details").val(" ");
    });
  });
